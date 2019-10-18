@@ -33,7 +33,7 @@ int factorialOfN(int n, int factorialDigits[158]) {
 	while (n) {
 		i = l;
 		while (i >= 0) {
-			c = factorialDigits[i] * n + c;//printf("%d %d %d %d n\n", n, i, l, c);
+			c = factorialDigits[i] * n + c;
 			factorialDigits[i] = c % 10;
 			c = c / 10;
 			int d = digits(c);
@@ -52,11 +52,8 @@ int factorialOfN(int n, int factorialDigits[158]) {
 		}
 		n -= 1;
 	}
-	//return 3;
 	return l + 1;
 }
-
-
 //
 // recamán’s sequence: "subtract if you can, otherwise add"
 //
