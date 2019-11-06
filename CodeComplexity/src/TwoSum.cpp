@@ -26,11 +26,11 @@ You need to solve this question in 3 ways.And measure time for each way.
 
 Observations: (Write down what you observed here):
 
-Way 1 :
+Way 1 :In brute froce it takes N*N complexity.
 
-Way 2 :
+Way 2 :After sorting and checking for sum its taking N*logN complexity.
 
-Way 3:
+Way 3:Using Extra arrays(hash tables) reducing complexity to N.
 
 Conclusion :
 */
