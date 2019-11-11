@@ -32,7 +32,7 @@ Way 2 :After sorting and checking for sum its taking N*logN complexity.
 
 Way 3:Using Extra arrays(hash tables) reducing complexity to N.
 
-Conclusion :
+Conclusion :Since using hash tables may increase the memory consumed but it eventually decreases time complexity.
 */
 #include <stdio.h>
 #include <stdlib.h>
