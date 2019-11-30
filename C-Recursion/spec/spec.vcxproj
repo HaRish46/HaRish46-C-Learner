@@ -58,7 +58,6 @@
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalDependencies />
-      <HeapReserveSize>4194304</HeapReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -82,17 +81,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="SLL012SortSpec.cpp" />
     <ClCompile Include="AssemblyInfo.cpp" />
-    <ClCompile Include="numberToLinkedListSpec.cpp" />
-    <ClCompile Include="removeEveryKthNode.cpp" />
-    <ClCompile Include="sortLinkedListSpec.cpp" />
-    <ClCompile Include="twodigitLinkedListSpec.cpp" />
-    <ClCompile Include="IsDivSLLSpec.cpp" />
+    <ClCompile Include="CountPairsSpec.cpp" />
+    <ClCompile Include="MazeSpec.cpp" />
+    <ClCompile Include="PillarsSpec.cpp" />
+    <ClCompile Include="RopeStudentsSpec.cpp" />
+    <ClCompile Include="SpiralSpec.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="NSnipersSpec.cpp" />
+    <ClCompile Include="StepsSpec.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h" />
