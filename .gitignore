@@ -43,9 +43,7 @@ dlldata.c
 # DNX
 project.lock.json
 artifacts/
-*.runsettings
-*.sln
-*.VC.db
+
 *_i.c
 *_p.c
 *_i.h
